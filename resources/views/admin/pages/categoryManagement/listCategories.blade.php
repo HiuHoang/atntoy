@@ -27,8 +27,10 @@
                         <td>{{$cat->category_id}}</td>
                         <td>{{$cat->category_name}}</td>
                         <td>{{$cat->category_description}}</td>
-                        <td><a href={{"deleteCategory/".$cat['category_id']}}>Delete</a>
-                            <a href={{"updateCategory/".$cat['category_id']}}>Update</a></td>
+                        <td>
+                            <a class="btn btn-danger" href={{"deleteCategory/".$cat['category_id']}}>Delete</a>
+                            <a class="btn btn-primary" href={{"updateCategory/".$cat['category_id']}}>Update</a>
+                        </td>
                     </tr>
                 @endforeach
 			</table>
