@@ -21,14 +21,6 @@
 
             <!-- Content -->
             <div class="text-center text-white mx-5 wow fadeIn">
-              <h1 class="mb-4">
-                <strong>Best toys for all</strong>
-              </h1>
-
-              <p>
-                <strong>Probably not the cheapest but the best</strong>
-              </p>
-
               <a target="_blank" href="https://mdbootstrap.com/education/bootstrap/" class="btn btn-outline-white btn-lg text-white">Explore now
               </a>
             </div>
