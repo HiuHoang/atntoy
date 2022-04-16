@@ -2,7 +2,7 @@
 
 @include('user.layouts.nav')
 
-@include('user.layouts.slider')
+{{-- @include('user.layouts.slider') --}}
 
 @yield('content')
 
