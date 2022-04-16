@@ -30,7 +30,7 @@
           </ul>
       @else
       <li><a href="login" target="_self" class="btn btn-info">Login</a></li>
-      <li><a href="register" target="_self" class="btn btn-dark">Register</a></li>
+      <li><a href="register" target="_self" class="btn btn-dark my-2">Register</a></li>
       @endif
     </ul>
   </div>
