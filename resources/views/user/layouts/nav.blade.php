@@ -1,5 +1,5 @@
 <!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #e3f2fd;">
+<nav class="navbar navbar-expand-lg navbar-light bg-light" style="background-color: #75baec;">
   <a class="navbar-brand" href="#">ATN</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
@@ -29,8 +29,9 @@
               <li><a href="{{ url('/logout') }}" class="text-dark">Logout</a></li>
           </ul>
       @else
-      <li><a href="login" target="_self" class="text-dark">Login</a></li>
-              @endif
+      <li><a href="login" target="_self" class="btn btn-info">Login</a></li>
+      <li><a href="register" target="_self" class="btn btn-dark">Register</a></li>
+      @endif
     </ul>
   </div>
 </nav>
