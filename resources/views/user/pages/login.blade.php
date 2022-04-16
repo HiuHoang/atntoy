@@ -33,11 +33,13 @@
 									<input name="remember" type="checkbox" value="Remember Me">Remember Me
 								</label>
 							</div>
-                            <div class="form-group">
+                            <div class="form-group d-flex justify-content-end">
 								<a href="{{ url('register') }}">Don't have an account? Create now!</a>
 							</div>
-                            <button type="submit" class="btn btn-lg bg-success">Login</button>
-
+							<div class="d-flex justify-content-around">
+								<button type="" href="{{'/'}}" class="btn btn-lg bg-secondary">Back</button>
+								<button type="submit" class="btn btn-lg bg-success">Login</button>
+							</div>
 						</fieldset>
 					</form>
 				</div>
