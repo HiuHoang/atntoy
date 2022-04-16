@@ -2,7 +2,7 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">
-      <img src="https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.theairgunexpo.com%2Fwp-content%2Fuploads%2F2021%2F04%2FATN_flat_2015_rgb_bg.png&imgrefurl=https%3A%2F%2Fwww.theairgunexpo.com%2Fae21-virtual-show-floor%2Fatn-corp%2F&tbnid=dsuAVRLDVaSw-M&vet=10CAsQxiAoAWoXChMIwKe_sYmZ9wIVAAAAAB0AAAAAEAY..i&docid=CzbCRACV1K0cSM&w=2540&h=2211&itg=1&q=atn%20brands&ved=0CAsQxiAoAWoXChMIwKe_sYmZ9wIVAAAAAB0AAAAAEAY" alt="" width="30" height="24" class="d-inline-block align-text-top">
+      <img src="/docs/5.1/assets/brand/bootstrap-logo.svg" alt="" width="30" height="24">
     </a>
   </div>
     {{-- <a class="navbar-brand" href="#">ATN</a> --}}
@@ -16,11 +16,6 @@
           <a class="nav-link active" href="{{ url('/') }}">Home <span class="sr-only">(current)</span></a>
         </li>
       </ul>
-      <form class="d-flex">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-      </form>
-      <ul class="navbar-nav ml-auto">
         @if (Auth::check())
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -37,7 +32,10 @@
               @else
               <li><a href="login" target="_self" class="dropdown-item">Login</a></li>
               @endif
-      </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
     </div>
   </nav>
 
