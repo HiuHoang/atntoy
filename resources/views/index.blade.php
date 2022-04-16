@@ -23,13 +23,12 @@
             <div class="card d-flex flex-column justify-content-around" style="height: 450px;">
 
               <!--Card image-->
-              {{-- <div class="view overlay"> --}}
-                <img src="{{asset('img/'.$product->product_image)}}" class="card-img-top"
-                  alt="" style="width:200px; height:200px;">
+              <div class="view overlay">
+                <img src="{{asset('img/'.$product->product_image)}}" class="card-img-top" alt="" style="width:200px; height:200px;">
                 <a>
                   <div class="mask rgba-white-slight"></div>
                 </a>
-              {{-- </div> --}}
+              </div>
               <!--Card image-->
 
               <!--Card content-->
