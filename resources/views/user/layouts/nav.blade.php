@@ -49,9 +49,6 @@
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="{{ url('/') }}">Home</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Dropdown
@@ -63,8 +60,20 @@
               <li><a class="dropdown-item" href="#">Something else here</a></li>
             </ul>
           </li>
-          <li class="nav-item">
-            <a class="nav-link disabled">Disabled</a>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  {{ Auth::user()->username }} <span class="caret"></span>
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  @if(Auth::user()->role==='admin')
+                  <li><a href="{{ url('/manage') }}" class="dropdown-item">Dashboard</a></li>
+                  @endif
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a href="{{ url('/logout') }}" class="dropdown-item">Logout</a></li>
+                @else
+                <li><a href="login" target="_self" class="dropdown-item">Login</a></li>
+                @endif
+            </ul>
           </li>
         </ul>
         <form class="d-flex">
