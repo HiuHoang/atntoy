@@ -7,7 +7,7 @@
   				<div class="container-fluid">
                 	<ul class="nav navbar-nav">
                         <h1 class="mt-4">Manage Product Page</h1>
-                        <li><a href="{{ url('addProduct') }}">Add product</a></li>
+                        <li> If you want to add a new product, click-><a class="btn btn-success" href="{{ url('addProduct') }}">Add product</a></li>
                 	</ul>
                 </div>
             </nav>
