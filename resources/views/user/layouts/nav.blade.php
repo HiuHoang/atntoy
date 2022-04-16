@@ -70,10 +70,13 @@
                   @endif
                   <li><hr class="dropdown-divider"></li>
                   <li><a href="{{ url('/logout') }}" class="dropdown-item">Logout</a></li>
+              </ul>
                 @else
                 <li><a href="login" target="_self" class="dropdown-item">Login</a></li>
                 @endif
-            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled">Disabled</a>
           </li>
         </ul>
         <form class="d-flex">
