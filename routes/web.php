@@ -22,7 +22,7 @@ use Illuminate\Support\Facades\Route;
 
 /////////////////////////////////////////////////////////////////
 // Homepage
-Route::get('/',[HomePageController::class,'getAllProduct']);
+Route::get('/',[HomePageController::class,'getAllProduct'])->name('homepage');
 Route::get('/detail/{product_id}',[HomePageController::class,'productDetail']);
 
 /////////////////////////////////////////////////////////////////

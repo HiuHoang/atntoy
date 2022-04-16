@@ -31,7 +31,10 @@
 							<div class="form-group">
 								<input class="form-control" placeholder="Your Password" name="password" type="password" value="" data-validate = "Password is required">
 							</div>
-							<button type="submit" class="btn btn-lg bg-success">Register</button>
+							<div class="d-flex justify-content-around">
+								<button type="" href="{{route('homepage')}}" class="btn btn-lg bg-secondary">Back</button>
+								<button type="submit" class="btn btn-lg bg-success">Register</button>
+							</div>
 						</fieldset>
 					</form>
 				</div>
