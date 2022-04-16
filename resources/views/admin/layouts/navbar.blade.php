@@ -14,7 +14,7 @@
         <div id="sidebar-collapse" class="col-sm-3 col-lg-2 sidebar">
             <ul class="nav menu">
                 <li role="presentation" class="divider"></li>
-                <li class="active"><a href={{"manage"}}>Homepage</a></li>
+                <li class="active"><a href={{"manage"}}>Go to shop</a></li>
                 <li><a href={{"listProducts"}}>Products</a></li>
                 <li><a href={{"listCategories"}}>Categories</a></li>
                 <li><a href={{"listUsers"}}>Users</a></li>

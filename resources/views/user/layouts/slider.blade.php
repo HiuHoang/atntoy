@@ -42,14 +42,6 @@
 
             <!-- Content -->
             <div class="text-center text-white mx-5 wow fadeIn">
-              <h1 class="mb-4">
-                <strong>Help you relax</strong>
-              </h1>
-
-              <p>
-                <strong>We have all kind of toys</strong>
-              </p>
-
               <a target="_blank" href="https://mdbootstrap.com/education/bootstrap/" class="btn btn-outline-white btn-lg text-white">Explore now
               </a>
             </div>
@@ -71,15 +63,6 @@
 
             <!-- Content -->
             <div class="text-center text-white mx-5 wow fadeIn">
-              <h1 class="mb-4">
-                <strong>All you need is a nice toy</strong>
-              </h1>
-
-              <p>
-                <strong>The world is in your hand</strong>
-              </p>
-
-
               <a target="_blank" href="https://mdbootstrap.com/education/bootstrap/" class="btn btn-outline-white btn-lg text-white">Explore now
               </a>
             </div>
