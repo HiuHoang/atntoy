@@ -11,19 +11,19 @@
     </button>
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav mr-auto">
-        <li class="nav-item active">
-          <a class="nav-link" href="{{ url('/') }}">Home <span class="sr-only">(current)</span></a>
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" href="{{ url('/') }}">Home <span class="sr-only">(current)</span></a>
         </li>
       </ul>
-      <form class="form-inline my-2 my-lg-0">
-        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
         <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
       </form>
       <ul class="navbar-nav ml-auto">
         @if (Auth::check())
         <li class="nav-item dropdown">
-            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 {{ Auth::user()->username }} <span class="caret"></span>
             </a>
 
@@ -31,6 +31,7 @@
                 @if(Auth::user()->role==='admin')
                 <li><a href="{{ url('/manage') }}" class="dropdown-item">Dashboard</a></li>
                 @endif
+                <li><hr class="dropdown-divider"></li>
                 <li><a href="{{ url('/logout') }}" class="dropdown-item">Logout</a></li>
             </ul>
               @else
