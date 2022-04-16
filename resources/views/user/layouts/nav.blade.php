@@ -1,5 +1,5 @@
 <!-- Navbar -->
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+<nav class="navbar navbar-expand-lg navbar-light bg-dark">
     <a class="navbar-brand" href="#">
       <a class="navbar-brand" href="#">ATN</a>
     </a>
