@@ -6,8 +6,8 @@
         	<nav class="navbar navbar-default">
   				<div class="container-fluid">
                 	<ul class="nav navbar-nav">
-                        {{-- <li><a href={{"addUser"}}>Add user</a></li> --}}
                         <h1 class="mt-4">Manage User Page</h1>
+                        <li><a href={{"addUser"}}>Add user</a></li>
                 	</ul>
                 </div>
             </nav>
