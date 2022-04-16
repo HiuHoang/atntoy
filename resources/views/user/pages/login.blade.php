@@ -38,7 +38,7 @@
 							</div>
 							<div class="d-flex justify-content-around">
 								<a href="{{route('homepage')}}" class="btn btn-lg bg-secondary">Back</a>
-								<a type="submit" class="btn btn-lg bg-success">Login</a>
+								<button type="submit" class="btn btn-lg bg-success">Login</button>
 							</div>
 						</fieldset>
 					</form>
