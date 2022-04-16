@@ -7,7 +7,7 @@
   				<div class="container-fluid">
                 	<ul class="nav navbar-nav">
                         <h1 class="mt-4">Manage User Page</h1>
-                        <li><a href={{"addUser"}}>Add user</a></li>
+                        <li><a class="btn btn-success" href={{"addUser"}}>Add New User</a></li>
                 	</ul>
                 </div>
             </nav>

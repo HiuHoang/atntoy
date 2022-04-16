@@ -7,7 +7,7 @@
   				<div class="container-fluid">
                 	<ul class="nav navbar-nav">
                         <h1>Manage Category Page</h1>
-                        <li><a href={{"addCategory"}}>Add Category</a></li>
+                        <li><a class="btn btn-success" href={{"addCategory"}}>Add New Category</a></li>
                 	</ul>
                 </div>
             </nav>
