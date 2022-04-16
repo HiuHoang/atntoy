@@ -23,13 +23,13 @@
                         @csrf
                         <fieldset>
 							<div class="form-group">
-								<input class="form-control" placeholder="Username" name="username" type="text" autofocus="">
+								<input class="form-control" placeholder="Your Username" name="username" type="text" autofocus="" data-validate = "Username is required">
 							</div>
                             <div class="form-group">
-								<input class="form-control" placeholder="Email" name="email" type="text" value="">
+								<input class="form-control" placeholder="Your Email" name="email" type="text" value="" data-validate = "Email is required">
 							</div>
 							<div class="form-group">
-								<input class="form-control" placeholder="Password" name="password" type="password" value="">
+								<input class="form-control" placeholder="Your Password" name="password" type="password" value="" data-validate = "Password is required">
 							</div>
 							<button type="submit" class="btn btn-lg bg-success">Register</button>
 						</fieldset>

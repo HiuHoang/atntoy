@@ -23,10 +23,10 @@
                         @csrf
 						<fieldset class="">
 							<div class="form-group">
-								<input class="form-control" placeholder="Username" name="username" type="username" autofocus="">
+								<input class="form-control" placeholder="Username" name="username" type="username" autofocus="" data-validate = "Username is required">
 							</div>
 							<div class="form-group">
-								<input class="form-control" placeholder="Password" name="password" type="password" value="">
+								<input class="form-control" placeholder="Password" name="password" type="password" value="" data-validate = "Password is required">
 							</div>
 							<div class="checkbox">
 								<label>
@@ -37,7 +37,7 @@
 								<a href="{{ url('register') }}">Don't have an account? Create now!</a>
 							</div>
 							<div class="d-flex justify-content-around">
-								<button type="" href="{{'/'}}" class="btn btn-lg bg-secondary">Back</button>
+								<button type="" href="{{url('/')}}" class="btn btn-lg bg-secondary">Back</button>
 								<button type="submit" class="btn btn-lg bg-success">Login</button>
 							</div>
 						</fieldset>
