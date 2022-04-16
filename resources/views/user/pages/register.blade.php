@@ -32,8 +32,8 @@
 								<input class="form-control" placeholder="Your Password" name="password" type="password" value="" data-validate = "Password is required">
 							</div>
 							<div class="d-flex justify-content-around">
-								<button type="" href="{{route('homepage')}}" class="btn btn-lg bg-secondary">Back</button>
-								<button type="submit" class="btn btn-lg bg-success">Register</button>
+								<a href="{{route('homepage')}}" class="btn btn-lg bg-secondary">Back</a>
+								<a type="submit" class="btn btn-lg bg-success">Register</a>
 							</div>
 						</fieldset>
 					</form>

@@ -37,8 +37,8 @@
 								<a href="{{ url('register') }}">Don't have an account? Create now!</a>
 							</div>
 							<div class="d-flex justify-content-around">
-								<button type="" href="{{route('homepage')}}" class="btn btn-lg bg-secondary">Back</button>
-								<button type="submit" class="btn btn-lg bg-success">Login</button>
+								<a href="{{route('homepage')}}" class="btn btn-lg bg-secondary">Back</a>
+								<a type="submit" class="btn btn-lg bg-success">Login</a>
 							</div>
 						</fieldset>
 					</form>
