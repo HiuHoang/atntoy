@@ -8,7 +8,7 @@
       <section class="text-center mb-4 mt-4 ">
           <div class="row">
               <div class="col-lg-12 mb-4">
-                  <h1 class="h1">Best products</h1>
+                  <h1 class="h1">Shopping now</h1>
               </div>
           </div>
 
