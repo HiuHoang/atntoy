@@ -20,11 +20,11 @@
           <div class="col-lg-3 col-md-6 mb-4">
 
             <!--Card-->
-            <div class="card d-flex flex-column justify-content-around" style="height: 450px;">
+            <div class="card d-flex flex-column justify-content-around">
 
               <!--Card image-->
               <div class="view overlay">
-                <img src="{{asset('img/'.$product->product_image)}}" class="card-img-top" alt="" style="width:200px; height:200px;">
+                <img src="{{asset('img/'.$product->product_image)}}" class="card-img-top" alt="">
                 <a>
                   <div class="mask rgba-white-slight"></div>
                 </a>
